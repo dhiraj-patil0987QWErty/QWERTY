@@ -33,7 +33,7 @@ public class CaptureScreenShot {
 			first_name.sendKeys("Learn Automation");
 			
 			
-			TakesScreenshot ts =(TakesScreenshot)driver;
+			TakesScreenshot ts =(TakesScreenshot)driver; 					//Changes Here
 			
 			File source = ts.getScreenshotAs(OutputType.FILE);
 		
